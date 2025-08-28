@@ -1,0 +1,5 @@
+<h2>Safe Echo output</h2>
+<p>Viewbag input: @ViewBag.Input</p>
+@* razor automatically encodes output to prevent XSS attacks *@
+<p>for crosschekcing  you can try following malicou XSS atack 
+    <script>alert('XSS')</script> it won't execute </p>
